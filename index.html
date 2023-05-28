@@ -132,24 +132,27 @@
     </div>
   </div>
 
-  <section id="contact">
-    <div class="container">
-      <h1 class="sub-title">Contact Me</h1>
-      <div class="contact-form">
-        <div class="form-group">
-          <input type="text" id="name" placeholder="Your Name" required>
-        </div>
-        <div class="form-group">
-          <input type="email" id="email" placeholder="Your Email" required>
-        </div>
-        <div class="form-group">
-          <textarea id="message" placeholder="Your Message" required></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-      </div>
-    </div>
-  </section>
 
+  
+  <div class="container">
+    <h1>Contact Form</h1>
+    <form action="https://formsubmit.co/murangidr@email.com" method="POST">
+    <input type="text" name="Name" placeholder="Full Name" required>
+    <input type="email" name="Email" placeholder="Email" required>
+    
+    <select name="Continent">
+    <option>Africa</option>
+    <option>Antarctica</option>
+    <option>Asia</option>
+    <option>Australia</option>
+    <option>Europe</option>
+    <option>North America</option>
+    <option>South America</option>
+    </select>
+    <textar name="Message" placeholder="Message" required></textarea>
+    <button type="submit">Send</button>
+    </form>
+    </div>
 
   <footer>
     <div class="container">
@@ -158,6 +161,7 @@
   </footer>
 
   <script src="script.js"></script>
+  
 </body>
 
 </html>
